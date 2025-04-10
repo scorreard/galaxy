@@ -1,23 +1,25 @@
 <tool id="execution-metrics-collector.sh" name="Execution Metrics Collector" version="0.1.0">
-  <description>for each sequence in a file</description>
+  <description>Description TO DO</description>
 <!--  <command>perl '${__tool_directory__}/toolExample.pl' '$input' '$output'</command>-->
-    <command>bash '${__tool_directory__}/execution-metrics-collector.sh'
+    <command>bash '${__tool_directory__}/execution-metrics-collector.sh'</command>
   <inputs>
-<!--    <param format="fasta" name="input" type="data" label="Source file"/>-->
+    <param format="fasta" name="input" type="data" label="Source file"/>
   </inputs>
   <outputs>
-<!--    <data format="tabular" name="output" />-->
+    <data format="tabular" name="output" />
   </outputs>
 
   <tests>
     <test>
-<!--      <param name="input" value="fa_gc_content_input.fa"/>-->
-<!--      <output name="out_file1" file="fa_gc_content_output.txt"/>-->
+      <param name="input" value="fa_gc_content_input.fa"/>
+      <output name="output" file="pids.txt"/>
     </test>
   </tests>
 
   <help>
-This tool computes GC content from a FASTA file.
+A python program and a set of bash scripts to monitor, collect, and visualize metrics of a given Linux process or command line, and its descendants.
   </help>
-
+    <citations>
+        <citation type="doi">https://github.com/inab/execution-process-metrics-collector</citation>
+    </citations>
 </tool>
