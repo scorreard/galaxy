@@ -1,0 +1,3 @@
+[submodule "lib/galaxy/job_metrics/instrumenters/lib/galaxy/job_metrics/instrumenters/execution-process-metrics-collector"]
+	path = lib/galaxy/job_metrics/instrumenters/lib/galaxy/job_metrics/instrumenters/execution-process-metrics-collector
+	url = https://github.com/inab/execution-process-metrics-collector.git
